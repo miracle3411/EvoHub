@@ -1,0 +1,64 @@
+
+.eve-container{
+    height: 100vh;
+    background-image: url("/public/img/Login.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+}
+
+.eve-container .in-container{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 0;
+}
+h2{
+    font-size: 2.5rem;
+}
+
+.MuiButtonBase-root.MuiButton-outlined {
+    height: 3rem; /* Adjusted height for the button on smaller screens */
+    width: 20rem; /* Adjusted width for the button on smaller screens */
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin: .5rem;
+    border: 1px solid black;
+    color: black;
+}
+.MuiButtonBase-root.MuiButton-contained {
+    height: 3rem; /* Adjusted height for the button on smaller screens */
+    width: 20rem; /* Adjusted width for the button on smaller screens */
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin: .5rem;
+    color: white;
+}
+.user-image{
+    width: 2rem;
+    height: 2rem;
+}
+.or{
+    display: block;
+    margin-top: .75rem;
+    font-size: 1rem;
+}
+.horizonBar{
+    border-top: 1px solid black;
+    width: 7rem;
+    margin: 1.5rem 1rem;
+}
+
+.terms {
+    margin-left: 12rem; /* Adjusted margin for smaller screens */
+    margin-right: 12rem; /* Adjusted margin for smaller screens */
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+}
+

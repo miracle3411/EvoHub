@@ -1,0 +1,29 @@
+.event-ribbon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height:20px;
+    background-color: rgba(192, 33, 71, 0.25); 
+  }
+
+  .event-ribbon-rsvp-button {
+    background-color: #EAA021; 
+    color: white; 
+    font-family: "DM Sans", sans-serif; 
+    width: 250PX; 
+    height: 50PX;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 25px;
+    z-index: 2;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left:50px;
+    margin-right:50px
+  }
+
+  .event-ribbon-rsvp-button:hover {
+    background-color: #D48700;
+  }

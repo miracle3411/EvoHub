@@ -1,0 +1,66 @@
+/* body{
+    background-image: url("/public/img/Register.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+} */
+
+
+
+.reg-container{
+    height: 100vh;
+    background-image: url("/public/img/Register.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+}
+
+
+.reg-container .in-container{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.back{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.MuiButtonBase-root.backBtn{
+    display: flex;
+    justify-content: left;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 0;
+}
+h2{
+    font-size: 2.5rem;
+}
+
+
+.MuiTextField-root{
+    height: 4rem; /* Adjusted height for the button on smaller screens */
+    width: 20rem; /* Adjusted width for the button on smaller screens */
+
+}
+.MuiTextField-root.txt .MuiOutlinedInput-root {
+    border-radius: 30px;
+  }
+
+
+.terms {
+    margin-left: 12rem; /* Adjusted margin for smaller screens */
+    margin-right: 12rem; /* Adjusted margin for smaller screens */
+    font-size: 1.1rem; /* Adjusted font size for smaller screens */
+}

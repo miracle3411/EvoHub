@@ -1,0 +1,5 @@
+.sheer-grey-background {
+  background: rgba(169, 169, 169, 0.5); /* Adjust the alpha value for the desired sheer effect */
+  padding: 20px; /* Add padding or adjust as needed */
+  border-radius: 8px; /* Add border-radius or adjust as needed */
+}

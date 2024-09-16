@@ -1,0 +1,431 @@
+/* body{
+    background-image: url("/public/img/Register.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+} */
+
+
+
+.admin-container{
+    height: 100vh;
+    background-image: url("/public/img/adlog.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+}
+
+
+.admin-container .in-container{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.back{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.user {
+    width: 10rem;
+    height: 10rem;
+}
+
+/* .MuiButtonBase-root.backBtn{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+} */
+
+h1{
+    font-size: 3rem;
+    padding: 0;
+}
+h2{
+    font-size: 2.5rem;
+}
+
+
+.MuiTextField-root{
+    height: 4rem; /* Adjusted height for the button on smaller screens */
+    width: 20rem; /* Adjusted width for the button on smaller screens */
+
+}
+.MuiTextField-root.txt .MuiOutlinedInput-root {
+    border-radius: 30px;
+  }
+
+
+.terms {
+    margin-left: 12rem; /* Adjusted margin for smaller screens */
+    margin-right: 12rem; /* Adjusted margin for smaller screens */
+    font-size: 1.1rem; /* Adjusted font size for smaller screens */
+}
+
+
+@media only screen and (max-width: 1440px) {
+    body {
+        background-size: cover; /* Adjust as needed for smaller screens */
+        background-position: center; /* Center the background image */
+        margin-top: 0rem; /* Adjusted margin for smaller screens */
+    }
+
+    .admin-container .in-container {
+        /* margin-top: 55%; Adjust the margin for smaller screens */
+        margin-left: 0rem; /* Adjusted margin for smaller screens */
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .MuiButtonBase-root.MuiButton-outlined,
+    .MuiButtonBase-root.MuiButton-contained {
+        height: 3rem; /* Adjusted height for smaller screens */
+        width: 18rem; /* Adjusted width for smaller screens */
+        font-size: 1rem; /* Adjusted font size for smaller screens */
+        margin: 0.5rem;
+    }
+
+    .user-image {
+        width: 2.5rem; /* Adjusted width for smaller screens */
+        height: 2.5rem; /* Adjusted height for smaller screens */
+    }
+
+    .or {
+        margin-top: 0.5rem; /* Adjusted margin for smaller screens */
+        margin-bottom: 0;
+    }
+
+    .horizonBar {
+        width: 8rem; /* Adjusted width for smaller screens */
+        margin: 1.5rem 0.5rem;
+    }
+
+    .terms {
+        margin-left: 8rem; /* Adjusted margin for smaller screens */
+        margin-right: 8rem; /* Adjusted margin for smaller screens */
+        font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-size: cover; /* Adjust as needed for smaller screens */
+        background-position: center; /* Center the background image */
+        margin-top: 0rem; /* Adjusted margin for smaller screens */
+    }
+
+    .admin-container .in-container {
+        /* margin-top: 55%; Adjust the margin for smaller screens */
+        margin-left: 0rem; /* Adjusted margin for smaller screens */
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2.2rem; /* Adjusted font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .MuiButtonBase-root.MuiButton-outlined,
+    .MuiButtonBase-root.MuiButton-contained {
+        height: 2.8rem; /* Adjusted height for smaller screens */
+        width: 16rem; /* Adjusted width for smaller screens */
+        font-size: .9rem; /* Adjusted font size for smaller screens */
+        margin: 0.5rem;
+    }
+
+    .user-image {
+        width: 2.5rem; /* Adjusted width for smaller screens */
+        height: 2.5rem; /* Adjusted height for smaller screens */
+    }
+
+    .or {
+        margin-top: 0.5rem; /* Adjusted margin for smaller screens */
+        margin-bottom: 0;
+    }
+
+    .horizonBar {
+        width: 8rem; /* Adjusted width for smaller screens */
+        margin: 1.5rem 0.5rem;
+    }
+
+    .terms {
+        margin-left: 2rem; /* Adjusted margin for smaller screens */
+        margin-right: 2rem; /* Adjusted margin for smaller screens */
+        font-size: 1rem; /* Adjusted font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 896px) {
+    body {
+        background-size: contain; /* Adjust as needed for smaller screens */
+        background-position: center; /* Center the background image */   
+        margin-top: 8rem; 
+    }
+
+    .admin-container .in-container {
+        /* margin-top: 55%; Adjust the margin for smaller screens */
+        margin-left: 21rem;
+        padding: 0;
+        
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    .MuiButtonBase-root.MuiButton-outlined,
+    .MuiButtonBase-root.MuiButton-contained {
+        height: 2rem;
+        width: 10rem;
+        font-size: 0.6rem;
+        margin: 0.4rem;
+    }
+
+    .user-image {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .or {
+        margin-top: 0.3rem;
+        margin-bottom: 0;
+    }
+
+    .horizonBar {
+        width: 5rem;
+        margin: 1rem 0.5rem;
+    }
+    .terms{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: contain; /* Adjust as needed for smaller screens */
+        background-position: center; /* Center the background image */   
+        margin-top: 8rem; 
+    }
+
+    .admin-container .in-container {
+        /* margin-top: 55%; Adjust the margin for smaller screens */
+        margin-left: 21rem;
+        padding: 0;
+        
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    .MuiButtonBase-root.MuiButton-outlined,
+    .MuiButtonBase-root.MuiButton-contained {
+        height: 2rem;
+        width: 10rem;
+        font-size: 0.6rem;
+        margin: 0.4rem;
+    }
+
+    .user-image {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .or {
+        margin-top: 0.3rem;
+        margin-bottom: 0;
+    }
+
+    .horizonBar {
+        width: 5rem;
+        margin: 1rem 0.5rem;
+    }
+    .terms{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: .6rem;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    body {
+        background-size: contain; /* Adjust as needed for smaller screens */
+        background-position: center; /* Center the background image */   
+        margin-top: 12rem; 
+    }
+
+    .admin-container .in-container {
+        /* margin-top: 55%; Adjust the margin for smaller screens */
+        margin-left: 11rem;
+    }
+    h1{
+        font-size: .8rem;
+    }
+    h2{
+        font-size: 0.5rem;
+    }
+
+    .MuiButtonBase-root.MuiButton-outlined,
+    .MuiButtonBase-root.MuiButton-contained {
+        height: 1rem;
+        width: 6rem;
+        font-size: 0.4rem;
+        margin: 0.2rem;
+    }
+
+    .user-image {
+        width: .6rem;
+        height: .6rem;
+    }
+
+    .or {
+        margin-top: 0.3rem;
+        margin-bottom: 0;
+        font-size: .5rem;
+    }
+
+    .horizonBar {
+        width: 5rem;
+        margin: .7rem 0.5rem;
+    }
+    .terms{
+        margin-left: 2.2rem;
+        margin-right: 2.2rem;
+        font-size: .4rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-size: contain; /* Adjust as needed for smaller screens */
+        background-position: center; /* Center the background image */   
+        margin-top: 13rem; 
+    }
+
+    .admin-container .in-container {
+        /* margin-top: 55%; Adjust the margin for smaller screens */
+        margin-left: 11rem;
+    }
+    h1{
+        font-size: .6rem;
+    }
+    h2{
+        font-size: 0.3rem;
+    }
+
+    .MuiButtonBase-root.MuiButton-outlined,
+    .MuiButtonBase-root.MuiButton-contained {
+        height: .8rem;
+        width: 5.1rem;
+        font-size: 0.3rem;
+        margin: 0.1rem;
+    }
+
+    .user-image {
+        width: .6rem;
+        height: .6rem;
+    }
+
+    .or {
+        margin-top: 0.3rem;
+        margin-bottom: 0;
+        font-size: .48rem;
+    }
+
+    .horizonBar {
+        width: 5rem;
+        margin: .6rem 0.5rem;
+    }
+    .terms{
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        font-size: .34rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        background-size: contain; /* Adjust as needed for smaller screens */
+        background-position: center; /* Center the background image */   
+        margin-top: 14rem; 
+    }
+
+    .admin-container .in-container {
+        /* margin-top: 55%; Adjust the margin for smaller screens */
+        margin-left: 8rem;
+    }
+    h1{
+        font-size: .55rem;
+    }
+    h2{
+        font-size: 0.3rem;
+    }
+
+    .MuiButtonBase-root.MuiButton-outlined,
+    .MuiButtonBase-root.MuiButton-contained {
+        height: .75rem;
+        width: .48rem;
+        font-size: 0.22rem;
+    }
+
+    .MuiButtonBase-root.MuiButton-contained{
+        margin-top: -1rem;
+    }
+
+    .user-image {
+        width: .6rem;
+        height: .6rem;
+    }
+
+    .or {
+        margin-top: 0.25rem;
+        margin-bottom: auto;
+        font-size: .44rem;
+    }
+
+    .horizonBar {
+        width: 3rem;
+        margin: .6rem 0.5rem;
+    }
+    .terms{
+        margin-left: 1.1rem;
+        margin-right: 1.1rem;
+        margin-top: -.2rem;
+        font-size: .28rem;
+    }
+}
+
+
